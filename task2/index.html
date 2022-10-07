@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.7.0/d3.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <script src="chart.js"></script>
+    <div id="wrapper"></div>
+        <div>
+            <button id="Low" onclick="drawBar(this.id, 'temperatureLow')">temperatureLow</button>
+            <button id="High" onclick="drawBar(this.id, 'temperatureHigh')">temperatureHigh</button>
+            <button id="Min" onclick="drawBar(this.id, 'temperatureMin')">temperatureMin </button>
+            <button id="Max" onclick="drawBar(this.id, 'temperatureMax')">temperatureMax</button>
+        </div>
+</body>
+</html>
